@@ -22,10 +22,4 @@ export class ProductsComponent implements OnInit {
     this.productService.getProducts()
         .subscribe(products => this.products = products);
   }
-
-  onSelect(product : Product)
-  {
-    this.selectedProduct=product;
-  }
-
 }
