@@ -8,6 +8,10 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { LayoutComponent } from './ui/layout/layout.component';
+import { HeaderComponent } from './ui/header/header.component';
+import { FooterComponent } from './ui/footer/footer.component';
+import { UiModule } from './ui/ui.module';
 
 @NgModule({
   declarations: [
@@ -15,12 +19,16 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     ProductsComponent,
     ProductDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    LayoutComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]

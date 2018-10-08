@@ -1,13 +1,13 @@
 <button (click)="goBack()">go back</button>
 <div *ngIf="product">
- 
-  <h2>{{product.name | uppercase}} Details</h2>
-  <div><span>id: </span>{{product.id}}</div>
-  <div>
-    <label>name:
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{product.name | uppercase}}</h5>
+      <p class="card-text">{{product.type}}</p>
       <input [(ngModel)]="product.name" placeholder="name">
-    </label>
-    <label>{{product.type}}</label>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
   </div>
- 
 </div>
+
