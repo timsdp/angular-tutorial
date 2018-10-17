@@ -12,6 +12,7 @@ import { LayoutComponent } from './ui/layout/layout.component';
 import { HeaderComponent } from './ui/header/header.component';
 import { FooterComponent } from './ui/footer/footer.component';
 import { UiModule } from './ui/ui.module';
+import { BreadcrumbComponent } from './ui/breadcrumb/breadcrumb.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UiModule } from './ui/ui.module';
     DashboardComponent,
     LayoutComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,

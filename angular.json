@@ -25,7 +25,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js111",
+              "node_modules/bootsrap/js/dist/util.js111"
+            ]
           },
           "configurations": {
             "production": {
@@ -74,7 +77,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootsrap/js/dist/util.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
