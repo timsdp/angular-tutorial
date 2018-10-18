@@ -26,8 +26,8 @@
               "src/styles.css"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js111",
-              "node_modules/bootsrap/js/dist/util.js111"
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/js/dist/util.js"
             ]
           },
           "configurations": {

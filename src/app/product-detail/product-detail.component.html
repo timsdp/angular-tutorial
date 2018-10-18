@@ -1,4 +1,5 @@
-<button (click)="goBack()">go back</button>
+<button (click)="goBack()" class="btn btn-primary">go back</button>
+
 <div *ngIf="product">
   <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="..." alt="Card image cap">
@@ -6,8 +7,8 @@
       <h5 class="card-title">{{product.name | uppercase}}</h5>
       <p class="card-text">{{product.type}}</p>
       <input [(ngModel)]="product.name" placeholder="name">
-      <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
 </div>
+
 

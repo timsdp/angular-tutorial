@@ -1,9 +1,19 @@
-<h2>Products</h2>
 
-<ul class="products">
-  <li *ngFor="let product of products">
-    <a routerLink="/detail/{{product.id}}">
-      <span class="badge">{{product.id}}</span> {{product.name}}
-    </a>
-  </li>
-</ul>
+<table class="table table-hover table-sm">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Type</th>
+      <th scope="col">Energy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <th scope="row">{{product.id}}</th>
+      <td><a routerLink="/detail/{{product.id}}">{{product.name}}</a></td>
+      <td>{{product.type}}</td>
+      <td>{{product.Energy}}</td>
+    </tr>
+  </tbody>
+</table>
