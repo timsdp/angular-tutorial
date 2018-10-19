@@ -1,7 +1,7 @@
 <div *ngIf="messagesService.messages.length" class="mt-5">
     <div class="alert alert-success" role="alert">
-        <h4 class="alert-heading">Messages</h4>
-        <button class="clear"
+        <h4 class="alert-heading">Messages service</h4>
+        <button class="btn btn-primary"
               (click)="messagesService.clear()">clear</button>
         <hr>
         <p class="mb-0" *ngFor='let message of messagesService.messages'>{{message}}</p>

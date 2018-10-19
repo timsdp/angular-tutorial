@@ -3,4 +3,5 @@ export class Product {
     name: string;
     type: string;
     energy: number;
+    image:string;
   }
